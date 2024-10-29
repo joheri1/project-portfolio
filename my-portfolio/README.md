@@ -8,10 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-How to get started
-In the GitHub repo this week, we have not set up a boilerplate for you to start. This means you will need to initialize a Vite project on your own.
-
-Begin with forking and cloning the repo as usual.
+### How to get started - Vite
 Initialize using Vite → npm create vite@latest my-portfolio --template
 Find all instructions in the instructions file.
 
