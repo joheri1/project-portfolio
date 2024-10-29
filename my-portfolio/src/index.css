@@ -1,68 +1,112 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  /* COLORS */ 
+  --primary-color: #FD6F00;   /* Global primary color */
+  --secondary-color: #202020; /* Global secondary color */
+  --natural-color: #FFFFFF;   /* Global natural color */
+  
+  /* TYPOGRAPHY */
+  --font-family-h1-h2: 'Urbanist', sans-serif;
+  --font-family-body: 'Poppins', sans-serif;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* H1 */
+  --font-size-h1: 100px;
+  --font-weight-h1: 700;
+  --line-height-h1: normal;
+  --font-style-h1: normal;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* H2 */
+  --font-size-h2: 100px;
+  --font-weight-h2: 700;
+  --line-height-h2: 100px; 
+  --font-style-h2: normal;
+  --color-h2: var(--secondary-color); /* Dark */
+
+  /* H3 */
+  --font-size-h3: 30px;
+  --font-weight-h3: 500;
+  --line-height-h3: normal;
+  --font-style-h3: normal;
+  --font-family-h3: 'Poppins', sans-serif; 
+  --color-h3: var(--secondary-color); /* Dark */
+
+  /* Body */
+  --font-size-body: 18px;
+  --font-weight-body: 400;
+  --line-height-body: 32px;
+  --font-family-body: 'Poppins', sans-serif; 
+  --color-body: var(--secondary-color); /* Dark */
+
+  /* Text (P tag) */
+  --font-size-text: 30px;
+  --font-weight-text: 500;
+  --line-height-text: normal;
+  --text-align-text: center;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+/* BACKGROUND */
+  
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: var(--natural-color); /* White */
 }
 
+/* APPLY TYPOGRAPHY STYLES */ 
+
+/* Apply the H1 styles */
+h1 {
+  font-family: var(--font-family-h1-h2); /* Urbanist */
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-h1);
+  line-height: var(--line-height-h1);
+  font-style: var(--font-style-h1);
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply the H2 styles */
+h2 {
+  font-family: var(--font-family-h1-h2); /* Urbanist */
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-h2);
+  line-height: var(--line-height-h2);
+  font-style: var(--font-style-h2);
+  color: var(--color-h2);
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply the H3 styles */
+h3 {
+  font-family: var(--font-family-h3); /* Poppins */
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-h3);
+  line-height: var(--line-height-h3);
+  font-style: var(--font-style-h3);
+  color: var(--color-h3);
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply the Body styles */
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  font-family: var(--font-family-body); /* Poppins */
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-body);
+  line-height: var(--line-height-body);
+  color: var(--color-body); 
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* Apply the Text / P tag */
+p {
+  font-family: var(--font-family-body); /* Poppins */
+  font-size: var(--font-size-text);
+  font-weight: var(--font-weight-text);
+  line-height: var(--line-height-text);
+  text-align: var(--text-align-text);
+  color: var(--color-body); 
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
