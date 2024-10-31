@@ -3,22 +3,21 @@
   --primary-color: #FD6F00;   /* Global primary color */
   --secondary-color: #202020; /* Global secondary color */
   --natural-color: #FFFFFF;   /* Global natural color */
-  
-  /* TYPOGRAPHY */
-  --font-family-h1-h2: 'Urbanist', sans-serif;
-  --font-family-body: 'Poppins', sans-serif;
 
   /* H1 */
   --font-size-h1: 100px;
   --font-weight-h1: 700;
-  --line-height-h1: normal;
+  --line-height-h1: 100px;
   --font-style-h1: normal;
+  --font-family-h1: 'Urbanist', sans-serif;
+  --color-h2: var(--secondary-color); /* Dark */
 
   /* H2 */
-  --font-size-h2: 100px;
+  --font-size-h2: 80px;
   --font-weight-h2: 700;
-  --line-height-h2: 100px; 
+  --line-height-h2: normal; 
   --font-style-h2: normal;
+  --font-family-h2:'Urbanist', sans-serif;
   --color-h2: var(--secondary-color); /* Dark */
 
   /* H3 */
