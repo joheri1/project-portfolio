@@ -85,7 +85,8 @@ h3 {
   line-height: var(--line-height-h3);
   font-style: var(--font-style-h3);
   color: var(--color-h3);
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
 }
 
