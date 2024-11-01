@@ -1,7 +1,7 @@
 /* Typography.css */
 
 h1 {
-    font-family: var(--font-family-h1-h2); 
+    font-family: var(--font-family-h1); 
     font-size: var(--font-size-h1);
     font-weight: var(--font-weight-h1);
     line-height: var(--line-height-h1);
@@ -11,7 +11,7 @@ h1 {
   }
   
   h2 {
-    font-family: var(--font-family-h1-h2); 
+    font-family: var(--font-family-h2); 
     font-size: var(--font-size-h2);
     font-weight: var(--font-weight-h2);
     line-height: var(--line-height-h2);

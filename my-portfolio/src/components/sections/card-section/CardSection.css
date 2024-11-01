@@ -12,7 +12,7 @@
   
   .card-section h2 {
     width: 48.875rem;
-    font-family: var(--font-family-h1-h2); /* Global H2 font family */
+    font-family: var(--font-family-h2); /* Global H2 font family */
     font-size: var(--font-size-h2);
     font-weight: var(--font-weight-h2);
     line-height: var(--line-height-h2);

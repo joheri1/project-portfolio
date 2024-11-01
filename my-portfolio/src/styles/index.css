@@ -1,5 +1,5 @@
 :root {
-  /* COLORS */ 
+   /* COLORS */ 
   --primary-color: #FD6F00;   /* Global primary color */
   --secondary-color: #202020; /* Global secondary color */
   --natural-color: #FFFFFF;   /* Global natural color */
@@ -9,7 +9,7 @@
   --font-weight-h1: 700;
   --line-height-h1: 6.25rem;
   --font-style-h1: normal;
-  --font-family-h1: 'Urbanist', sans-serif;
+  --font-family-h1: 'Urbanist';
   --color-h2: var(--secondary-color); /* Dark */
 
   /* H2 */
@@ -17,7 +17,7 @@
   --font-weight-h2: 700;
   --line-height-h2: normal; 
   --font-style-h2: normal;
-  --font-family-h2:'Urbanist', sans-serif;
+  --font-family-h2: 'Urbanist';
   --color-h2: var(--secondary-color); /* Dark */
 
   /* H3 */
@@ -25,14 +25,14 @@
   --font-weight-h3: 500;
   --line-height-h3: normal;
   --font-style-h3: normal;
-  --font-family-h3: 'Poppins', sans-serif; 
+  --font-family-h3: 'Poppins'; 
   --color-h3: var(--secondary-color); /* Dark */
 
   /* Body */
   --font-size-body: 1.125rem;
   --font-weight-body: 400;
   --line-height-body: 2rem;
-  --font-family-body: 'Poppins', sans-serif; 
+  --font-family-body: 'Poppins'; 
   --color-body: var(--secondary-color); /* Dark */
 
   /* Text (P tag) */
@@ -57,7 +57,7 @@ body, html {
 
 /* Apply the H1 styles */
 h1 {
-  font-family: var(--font-family-h1-h2); /* Urbanist */
+  font-family: var(--font-family-h1); /* Urbanist */
   font-size: var(--font-size-h1);
   font-weight: var(--font-weight-h1);
   line-height: var(--line-height-h1);
@@ -68,7 +68,7 @@ h1 {
 
 /* Apply the H2 styles */
 h2 {
-  font-family: var(--font-family-h1-h2); /* Urbanist */
+  font-family: var(--font-family-h2); /* Urbanist */
   font-size: var(--font-size-h2);
   font-weight: var(--font-weight-h2);
   line-height: var(--line-height-h2);
