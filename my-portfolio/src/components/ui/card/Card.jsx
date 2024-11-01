@@ -4,9 +4,9 @@ import { H2 } from './Typography.jsx';
 
 export const Card = () => {
   return (
-    <div className="article-card">
+    <div className="article-card-1">
       <Image />
-      <div className="article-content">
+      <div className="article-content-1">
         <span className="article-date">Oct 2024</span>
         <H2 heading="Zoe" />
         {/* <h2 className="article-title">How to stop being scared: Learning to love code</h2> */}

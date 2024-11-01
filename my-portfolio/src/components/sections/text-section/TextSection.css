@@ -1,0 +1,26 @@
+/* TextSection.css */
+
+.text-section-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 64px 0;
+  }
+  
+  .skills-columns {
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+  }
+  
+  .skills-column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .text-section-tech {
+    display: flex;
+  }
+  

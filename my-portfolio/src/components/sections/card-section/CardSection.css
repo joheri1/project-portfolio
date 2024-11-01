@@ -1,0 +1,57 @@
+/* CardSection.css */
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    gap: 32px;
+    color: var(--color-body); /* Uses the global body color */
+  }
+  
+  .card-section h2 {
+    font-family: var(--font-family-h1-h2); /* Global H2 font family */
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+    line-height: var(--line-height-h2);
+    color: var(--color-h2); /* Global H2 color */
+    margin-bottom: 16px;
+  }
+  
+  .cards-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .article-card, .project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px;
+    background-color: var(--natural-color); /* Global background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: var(--color-body);
+  }
+  
+  .article-card button, .project-card button {
+    margin-top: 16px;
+    padding: 8px 16px;
+    border: none;
+    background-color: var(--primary-color); /* Primary color for buttons */
+    color: var(--natural-color); /* Button text color */
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: var(--font-family-body);
+  }
+  
+  .article-card button:hover, .project-card button:hover {
+    background-color: var(--secondary-color); /* Secondary color for hover */
+  }
+  
+  

@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import Hero from "./components/sections/hero/Hero";
 import { TextSection } from "./components/sections/text-section/TextSection";
 import { CardSection } from "./components/sections/card-section/CardSection";
@@ -8,10 +7,10 @@ const App = () => {
   return (
     <div className="app">
       <Hero />
-      <TextSection />
-      <CardSection />
-      <TextSection />
-      <CardSection />
+      <TextSection category="skills" />
+      <CardSection category="project-card" />
+      <TextSection category="tech" />
+      <CardSection category="article-card" />
       <Footer />
     </div>
   );
