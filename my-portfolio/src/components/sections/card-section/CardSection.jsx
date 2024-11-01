@@ -1,16 +1,16 @@
+/* eslint-disable react/prop-types */
 // CardSection.jsx
 
 import "./CardSection.css";
 import { H3, Body } from "../../ui/typography/Typography";
 import "../../ui/typography/Typography.css";
 
-export const CardSection = () => { 
+export const CardSection = ({ category }) => { 
   return (
     <div className="card-section">
-      <h2>Featured Projects</h2>
+      <h2>{category === "project-card" ? "Featured Projects" : "My Journey"}</h2>
       <div className="cards-container">
-        <ArticleCard />
-        <ProjectCard />
+        {category === "project-card" ? <ProjectCard /> : <ArticleCard />}
       </div>
     </div>
   );

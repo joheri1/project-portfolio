@@ -1,4 +1,5 @@
 // Hero.jsx
+
 import "./Hero.css";
 import { H1, H3, Body } from "../../ui/typography/Typography";
 import "../../ui/typography/Typography.css";

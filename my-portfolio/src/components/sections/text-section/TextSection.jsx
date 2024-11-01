@@ -1,10 +1,8 @@
 /* eslint-disable react/prop-types */
 
 // TextSection.jsx
-
 import "./TextSection.css";
 import { H2, H3, Body } from "../../ui/typography/Typography";
-import "../../ui/typography/Typography.css";
 
 const skillsContent = [
   {
@@ -34,13 +32,13 @@ export const TextSection = ({ category }) => {
   if (category === "skills") {
     return (
       <div className="text-section-skills">
-        <H2>Skills</H2>
+        <H2 heading="Skills" />
         <div className="skills-columns">
           {skillsContent.map((column, index) => (
             <div key={index} className="skills-column">
-              <H3>{column.title}</H3>
+              <H3 heading={column.title} />
               {column.items.map((item, idx) => (
-                <Body key={idx}>{item}</Body>
+                <Body key={idx} text={item} />
               ))}
             </div>
           ))}
@@ -50,12 +48,11 @@ export const TextSection = ({ category }) => {
   } else if (category === "tech") {
     return (
       <div className="text-section-tech">
-        <H2>{techContent.title}</H2>
-        <H3>{techContent.description}</H3>
+        <H2 heading={techContent.title} />
+        <H3 heading={techContent.description} />
       </div>
     );
   } else {
     return null;
   }
 };
-

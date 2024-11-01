@@ -1,5 +1,8 @@
 /* TextSection.css */
 
+.text-section .h2 {
+    gap: 64px;
+}
 .text-section-skills {
     display: flex;
     flex-direction: column;
@@ -23,4 +26,3 @@
   .text-section-tech {
     display: flex;
   }
-  
