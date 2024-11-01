@@ -1,7 +1,8 @@
 // TextSection.jsx
 
 import "./TextSection.css";
-import { H2, Body} from "./Typography";
+import { H2, Body } from "../../ui/typography/Typography";
+import "../../ui/typography/Typography.css";
 
 export const TextSection = () => {
   return (

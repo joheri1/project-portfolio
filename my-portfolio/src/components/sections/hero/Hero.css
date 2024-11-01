@@ -1,0 +1,22 @@
+/* Hero.css */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 128px 128px 64px 128px;
+    align-self: stretch;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Adjust the gap between text elements as needed */
+  }
+  
+  .hero-section h1,
+  .hero-section h3,
+  .hero-section p {
+    margin: 0;
+  }
+  
