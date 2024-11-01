@@ -5,15 +5,15 @@
   --natural-color: #FFFFFF;   /* Global natural color */
 
   /* H1 */
-  --font-size-h1: 100px;
+  --font-size-h1: 6.25rem;
   --font-weight-h1: 700;
-  --line-height-h1: 100px;
+  --line-height-h1: 6.25rem;
   --font-style-h1: normal;
   --font-family-h1: 'Urbanist', sans-serif;
   --color-h2: var(--secondary-color); /* Dark */
 
   /* H2 */
-  --font-size-h2: 80px;
+  --font-size-h2: 5rem;
   --font-weight-h2: 700;
   --line-height-h2: normal; 
   --font-style-h2: normal;
@@ -21,7 +21,7 @@
   --color-h2: var(--secondary-color); /* Dark */
 
   /* H3 */
-  --font-size-h3: 30px;
+  --font-size-h3: 1.875rem;
   --font-weight-h3: 500;
   --line-height-h3: normal;
   --font-style-h3: normal;
@@ -29,16 +29,16 @@
   --color-h3: var(--secondary-color); /* Dark */
 
   /* Body */
-  --font-size-body: 18px;
+  --font-size-body: 1.125rem;
   --font-weight-body: 400;
-  --line-height-body: 32px;
+  --line-height-body: 2rem;
   --font-family-body: 'Poppins', sans-serif; 
   --color-body: var(--secondary-color); /* Dark */
 
   /* Text (P tag) */
-  --font-size-text: 30px;
+  --font-size-text: 1.125rem;
   --font-weight-text: 500;
-  --line-height-text: normal;
+  --line-height-text: 2rem;
   --text-align-text: center;
 }
 
