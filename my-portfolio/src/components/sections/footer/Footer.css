@@ -2,7 +2,7 @@
 
 .footer-section {
     display: flex;
-    padding: 64px 128px 128px 128px;
+    padding: 4rem 8rem 8rem 8rem;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;

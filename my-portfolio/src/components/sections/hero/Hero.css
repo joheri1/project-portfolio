@@ -4,14 +4,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 128px 128px 64px 128px;
+    padding: 8rem 8rem 4rem 8rem;
     align-self: stretch;
   }
   
   .hero-content {
     display: flex;
     flex-direction: column;
-    gap: 16px; /* Adjust the gap between text elements as needed */
+    gap: 2rem;
   }
   
   .hero-section h1,
