@@ -35,8 +35,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem; /* Adds spacing between each item */
-    max-width: 20rem; /* Adjust as needed */
+    max-width: 20rem; 
   }
   
   .footer-contact-info h2 {
@@ -61,5 +60,9 @@
     margin-bottom: 1.5rem; /* Add space before social icons */
   }
 
+  /* ========== SOCIAL LINKS ========== */
 
+  .social-icons {
+    margin-top: 4rem; /* Adds space above the icons */
+  }
   

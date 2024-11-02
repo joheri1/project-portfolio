@@ -7,16 +7,16 @@
     padding: 4rem 0rem;
     width: 90rem;
     gap: 4rem;
-    color: var(--color-body); /* Uses the global body color */
+    color: black; /* Uses the global body color */
   }
   
-  .card-section h2 {
+  .card-section .h3 {
     width: 48.875rem;
     font-family: var(--font-family-h2); /* Global H2 font family */
     font-size: var(--font-size-h2);
     font-weight: var(--font-weight-h2);
     line-height: var(--line-height-h2);
-    color: var(--color-h2); /* Global H2 color */
+    color: black; /* Dark */; /* Global H2 color */
     margin-bottom: 4rem;
   }
   
@@ -34,7 +34,7 @@
     align-items: flex-end;
     gap: 4rem;
     background-color: var(--natural-color); /* Global background color */
-    color: var(--color-body);
+    color: black; /* Dark */;
   }
   
   .article-card button, .project-card button {
@@ -42,8 +42,8 @@
     height: 3rem;
     padding: 0rem 1rem;
     border: none;
-    background-color: var(--primary-color); /* Primary color for buttons */
-    color: var(--natural-color); /* Button text color */
+    background-color: var(--natural-color); /* Primary color for buttons */
+    color: black; /* Button text color */
     border-radius: 0.75rem;
     cursor: pointer;
     font-family: var(--font-family-body);
@@ -52,5 +52,7 @@
   .article-card button:hover, .project-card button:hover {
     background-color: var(--secondary-color); /* Secondary color for hover */
   }
+  
+  
   
   

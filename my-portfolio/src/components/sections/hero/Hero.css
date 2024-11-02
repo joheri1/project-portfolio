@@ -6,9 +6,8 @@
     justify-content: space-between;
     align-items: center;
     max-width: 74rem; 
-    max-height: 34.2rem;
     width: 74rem;
-    height: 34.2rem; 
+    /*height: 34.2rem; */
     margin: 0 auto; /* Center the container */
     box-sizing: border-box;
 }
@@ -16,7 +15,7 @@
   /* ========== TEXT BOX STYLING ========== */
 
   .text-box {
-    max-width: 50%;
+    max-width: 55%;
     gap: 2rem;
     align-items: flex-start;
     text-align: left;
@@ -29,29 +28,14 @@
   .text-box .body-text {
     margin-top: 2rem;
     text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; 
   }
   .text-box h3, 
   .text-box p {
     margin: 0;
 }
-
-/* ========== SOCIAL ICONS ========== */
-
-.social-icons {
-    display: flex;
-    gap: 1rem;
-    margin-top: 4rem; /* Adds space above the icons */
-  }
-  
-  .icon {
-    width: 2rem; 
-    height: 2rem;
-    transition: transform 0.3s; 
-  }
-  
-  .icon:hover {
-    transform: scale(1.1); /* Slight zoom effect on hover */
-  }
   
 /* ========== IMAGE BOX ========== */
 
@@ -71,3 +55,5 @@
     width: 100%;
     height: auto;
 }
+
+

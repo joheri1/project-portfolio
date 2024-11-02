@@ -11,19 +11,32 @@ export const CardSection = ({ category }) => {
     <div className="card-section">
       <h2>{category === "project-card" ? "Featured Projects" : "My Journey"}</h2>
       <div className="cards-container">
-        {category === "project-card" ? <ProjectCard /> : <ArticleCard />}
+        {category === "project-card" ? (
+          <>
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+          </>
+        ) : (
+          <>
+            <ArticleCard />
+            <ArticleCard />
+            <ArticleCard />
+          </>
+        )}
       </div>
     </div>
   );
 };
+
 const ProjectCard = () => (
   <div className="project-card">
     <H3>Project Title</H3>
     <Body>This is the body text content for the project.</Body>
-    <button>Live demo</button>
+    <button>Live Demo</button>
     <button>View Code</button>
   </div>
-)
+);
 
 const ArticleCard = () => (
   <div className="article-card">
@@ -32,4 +45,5 @@ const ArticleCard = () => (
     <button>Read Article</button>
   </div>
 );
+
 

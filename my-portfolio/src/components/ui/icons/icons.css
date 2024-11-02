@@ -3,7 +3,6 @@
 .social-icons {
     display: flex;
     gap: 1rem;
-    margin-top: 4rem; /* Adds space above the icons */
   }
   
   .icon {
