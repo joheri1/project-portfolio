@@ -1,4 +1,7 @@
 /* eslint-disable react/prop-types */
+
+/* ========== TYPOGRAPHY COMPONENT ========== */
+
 import "./typography.css";
 
 export const H1 = ({ heading }) => <h1 className="heading1">{heading}</h1>;

@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-// CardSection.jsx
+
+/* ========== CARD SECTION ========== */
 
 import "./CardSection.css";
 import { H3, Body } from "../../ui/typography/Typography";

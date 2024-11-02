@@ -1,4 +1,4 @@
-// Footer.jsx
+/* ========== FOOTER SECTION ========== */
 
 import "./Footer.css";
 import { H2, Body } from "../../ui/typography/Typography";

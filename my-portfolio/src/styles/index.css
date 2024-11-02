@@ -4,7 +4,7 @@ img {
   max-width: 100%;
 }
 :root {
-   /* COLORS */ 
+/* ========== COLORS ========== */
   --primary-color: #FD6F00;   /* Global primary color */
   --secondary-color: #202020; /* Global secondary color */
   --natural-color: #FFFFFF;   /* Global natural color */
@@ -47,7 +47,7 @@ img {
   --text-align-text: center;
 }
 
-/* BACKGROUND */
+/* ========== BACKGROUND ========== */
   
 body, html {
   margin: 0;
@@ -58,7 +58,7 @@ body, html {
   background-color: var(--natural-color);
 }
 
-/* APPLY TYPOGRAPHY STYLES */ 
+/* ========== APPLY TYPOGRAPHY STYLES ========== */
 
 /* Apply the H1 styles */
 h1 {

@@ -1,4 +1,4 @@
-/* HERO SECTION STYLES */ 
+/* ========== HERO SECTION STYLES ========== */
 
 .hero-container {
     display: flex;
@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
   
-  /* TEXT BOX STYLING */
+  /* ========== TEXT BOX STYLING ========== */
 
   .text-box {
     max-width: 50%;
@@ -35,7 +35,7 @@
     margin: 0;
 }
 
-/* SOCIAL ICONS */ 
+/* ========== SOCIAL ICONS ========== */
 
 .social-icons {
     display: flex;
@@ -53,7 +53,7 @@
     transform: scale(1.1); /* Slight zoom effect on hover */
   }
   
-/* IMAGE BOX */ 
+/* ========== IMAGE BOX ========== */
 
 .image-box {
     display: flex;
