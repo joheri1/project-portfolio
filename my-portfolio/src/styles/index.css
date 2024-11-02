@@ -1,3 +1,8 @@
+/*Ensure images adapts well to all devices*/
+img {
+  display: block;
+  max-width: 100%;
+}
 :root {
    /* COLORS */ 
   --primary-color: #FD6F00;   /* Global primary color */

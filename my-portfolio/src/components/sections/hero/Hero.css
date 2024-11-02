@@ -5,28 +5,13 @@
     padding: 8rem 8rem 4rem 8rem;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px; 
+    max-width: 74rem; 
+    max-height: 34.2rem;
+    width: 74rem;
+    height: 34.2rem; 
     margin: 0 auto; /* Center the container */
     box-sizing: border-box;
-  }
-  
-.hero-section h1 {
-    margin-bottom: 2rem;
 }
-.hero-section h3,
-.hero-section p {
-    margin: 0;
-}
-
-.hero-container {
-    width: 74rem;
-    height: 34.2rem;
-    display: flex;
-    padding: 8rem 8rem 4rem 8rem;
-    justify-content: space-between;
-    align-items: center;
-    align-self: stretch;
-  }
   
   /* TEXT BOX STYLING */
 
@@ -36,10 +21,19 @@
     align-items: flex-start;
     text-align: left;
   }
-  .body-text {
+  .text-box h1 {
+    white-space: pre-line; /* Recognizes \n as a line break */
+    margin-bottom: 2rem; 
+    max-width: 15rem; /* To line break the two words */
+  }
+  .text-box .body-text {
     margin-top: 2rem;
     text-align: left;
   }
+  .text-box h3, 
+  .text-box p {
+    margin: 0;
+}
 
 /* SOCIAL ICONS */ 
 
@@ -48,7 +42,6 @@
     gap: 1rem;
     margin-top: 4rem; /* Adds space above the icons */
   }
-  
   
   .icon {
     width: 2rem; 
