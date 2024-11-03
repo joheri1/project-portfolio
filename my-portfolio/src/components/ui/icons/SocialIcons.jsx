@@ -5,7 +5,7 @@ import InstagramIcon from "../../../assets/icons/Btn - instagram.svg";
 import LinkedinIcon from "../../../assets/icons/Btn - linkedin.svg";
 import StackOverflowIcon from "../../../assets/icons/Btn - stackoverflow.svg";
 import TwitterIcon from "../../../assets/icons/Btn - twitter.svg";
-import "./Icons.css";
+import "./SocialIcons.css";
 
 const SocialIcons = () => {
   return (
