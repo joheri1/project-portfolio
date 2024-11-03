@@ -26,6 +26,8 @@ I made some adjustments to the structure. The original design was missing an h1 
 **- 
 **- Passing content**  
 I used a mix of children and explicit props for passing content, so I couldn't see some sections in my app. Went for explicit props since I couldn't really grasp how children actually work. 
+**- Overriding the Global styling**  
+In a couple of places the different heading tags had different styling. One example is the Date in the ArticleSection, which had heading h3 but font size 1.125rem, and I solved that issue by changing the h3 to a paragraph.  
 
 *** If I had more time ***  
 1. I would create a component for Bio containing the profile image, header, body text, and the social icons/links. This component could then be used in both the Hero and Footer sections. I noticed this while working with the Footer, because I more or less were copying and pasting from the Hero section. 

@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 
-// TextSection.jsx
+/* ========== TEXT SECTION ========== */
+
 import "./TextSection.css";
 import { H2, H3, Body } from "../../ui/typography/Typography";
 
