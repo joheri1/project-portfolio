@@ -9,7 +9,7 @@ The icons and their links are imported from SocialIcons component.
 import "./Footer.css";
 import { H2, Body } from "../../ui/typography/Typography";
 import placeholderFooterImage from "../../../assets/images/placeholder-footer-image.png";
-import SocialIcons from "../../ui/icons/icons";
+import SocialIcons from "../../ui/icons/Icons";
 
 export const Footer = () => { 
   return (

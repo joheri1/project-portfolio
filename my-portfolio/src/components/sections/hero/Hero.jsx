@@ -9,7 +9,7 @@ import "./Hero.css";
 import { H1, H3, Body } from "../../ui/typography/Typography";
 import "../../ui/typography/Typography.css";
 import placeholderImage from "../../../assets/images/placeholder-image.png";
-import SocialIcons from "../../ui/icons/icons";
+import SocialIcons from "../../ui/icons/Icons";
 
 export const Hero = () => { 
   return (

@@ -52,6 +52,7 @@ The social icons and their links are styled via the SocialIcons component, excep
     line-height: var(--line-height-h2);
     color: var(--secondary-color);
     margin: 0 0 1rem; /* Space below heading */
+    text-align: left;
   }
   
   .footer-contact-info .footer-name,
@@ -61,6 +62,7 @@ The social icons and their links are styled via the SocialIcons component, excep
     font-size: var(--font-size-body);
     color: var(--secondary-color);
     margin: 0;
+    text-align: left;
   }
   
   .footer-contact-info .footer-email {

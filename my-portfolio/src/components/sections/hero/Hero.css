@@ -3,7 +3,7 @@
 /* This component contains the styling for the Hero header. 
 
 - The styling for headings and body text is imported from the Typography component. 
-- The icons and their links are styled via the SocialIcons component. */
+- The styling for the icons and their links is imported from SocialIcons component. */
 
 .hero-container {
     display: flex;

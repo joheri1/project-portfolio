@@ -55,7 +55,7 @@ export const CardSection = ({ category }) => {
           category === "project-card" ? (
             <ProjectCard
               key={index}
-              title={card.name}
+              name={card.name}
               content={card.content}
               image={card.image}
               netlifyLink={card.netlify}
@@ -76,7 +76,7 @@ export const CardSection = ({ category }) => {
   );
 };
 
-const ProjectCard = ({ title, content, image, netlifyLink, githubLink }) => (
+const ProjectCard = ({ name, content, image, netlifyLink, githubLink }) => (
   <div className="project-card">
     <div
       className="project-image"
@@ -85,7 +85,7 @@ const ProjectCard = ({ title, content, image, netlifyLink, githubLink }) => (
       }}
     ></div>
     <div>
-      <H3 className="title">{title}</H3>
+      <H3 className="title">{name}</H3>
       <Body text={content} className="content" />
       <div className="project-buttons">
         <Button label="Live Demo" variant="filled" link={netlifyLink} />

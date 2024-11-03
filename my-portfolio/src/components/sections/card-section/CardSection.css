@@ -1,5 +1,9 @@
 /* ========== CARD SECTION STYLING========== */
 
+/* This component contains stylings for the cards displayed under Featured Projects and My Journey. The cards contain heading, image, body-text, and button/-s. The buttons are imported from Button.jsx. 
+
+*/
+
 .card-section {
     display: flex;
     flex-direction: column;
@@ -33,6 +37,10 @@
     gap: 1rem;
     transition: transform 0.3s ease;
   }
+
+	.project-card .body-text {
+		text-align: left;
+	}
   
   .project-card:hover, .article-card:hover {
     transform: translateY(-10px);
@@ -46,22 +54,22 @@
     background-position: center;
     background-blend-mode: overlay;
   }
-  .title {
+  .project-card, .article-card .title {
     text-align: left;
   }
-  .content {
+  .project-card, .article-card .content {
     font-size: 0.875rem;
     text-align: left;
 		align-self: stretch;
 		flex-grow: 1;
   }
-	.body-text {
+	.project-card, .article-card .body-text {
 		font-size: 1.125rem;
 		align-self: stretch;
 		text-align: left;
 	}
 
-.date {
+	.article-card .date {
     font-size: 1.125rem;
     align-self: stretch;
     text-align: left;
