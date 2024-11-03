@@ -37,10 +37,6 @@
     gap: 1rem;
     transition: transform 0.3s ease;
   }
-
-	.project-card .body-text {
-		text-align: left;
-	}
   
   .project-card:hover, .article-card:hover {
     transform: translateY(-10px);
@@ -63,11 +59,17 @@
 		align-self: stretch;
 		flex-grow: 1;
   }
-	.project-card, .article-card .body-text {
+	.article-card .body-text {
 		font-size: 1.125rem;
 		align-self: stretch;
 		text-align: left;
 	}
+
+  .project-card .body-text {
+    text-align: left;
+    font-size: 1.125rem;
+		align-self: stretch;
+  }
 
 	.article-card .date {
     font-size: 1.125rem;
