@@ -31,5 +31,8 @@ I used a mix of children and explicit props for passing content, so I couldn't s
 1. I would create a component for Bio containing the profile image, header, body text, and the social icons/links. This component could then be used in both the Hero and Footer sections. I noticed this while working with the Footer, because I more or less were copying and pasting from the Hero section. 
 2. 
 
+### A few useful sources in this project: 
+- For the borders between the columns in the Skills text section I found this [Code Pen](https://codepen.io/brendanfalkowski/pen/Mwrywj) and modified it in [My Code Pen](https://codepen.io/joheri1/pen/qBeKLVL). 
+- For the card effect, I found this [CodePen](https://codepen.io/william-goldsworthy/pen/JzVajj) and modified it in [My Code Pen](https://codepen.io/joheri1/pen/GRVxByV)
 
 

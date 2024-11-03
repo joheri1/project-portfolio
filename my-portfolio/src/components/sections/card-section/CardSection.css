@@ -4,53 +4,78 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4rem 0rem;
-    width: 90rem;
-    gap: 4rem;
-    color: black; /* Uses the global body color */
+    padding: 4rem 0;
+    width: 100%;
+    gap: 2rem;
   }
   
-  .card-section .h3 {
-    width: 48.875rem;
-    font-family: var(--font-family-h2); /* Global H2 font family */
-    font-size: var(--font-size-h2);
-    font-weight: var(--font-weight-h2);
-    line-height: var(--line-height-h2);
-    color: black; /* Dark */; /* Global H2 color */
-    margin-bottom: 4rem;
+  .card-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
   }
   
   .cards-container {
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
   }
   
-  .article-card, .project-card {
+  .project-card, .article-card {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    gap: 4rem;
-    background-color: var(--natural-color); /* Global background color */
-    color: black; /* Dark */;
+    align-items: flex-start;
+    background-color: var(--natural-color);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    gap: 1rem;
+    transition: transform 0.3s ease;
   }
   
-  .article-card button, .project-card button {
+  .project-card:hover, .article-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-image, .article-image {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .date, .tags, .content {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  .project-links {
     display: flex;
-    height: 3rem;
-    padding: 0rem 1rem;
-    border: none;
-    background-color: var(--natural-color); /* Primary color for buttons */
-    color: black; /* Button text color */
-    border-radius: 0.75rem;
-    cursor: pointer;
-    font-family: var(--font-family-body);
+    gap: 1rem;
   }
   
-  .article-card button:hover, .project-card button:hover {
-    background-color: var(--secondary-color); /* Secondary color for hover */
+  .project-links button, .article-card button {
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: var(--natural-color);
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .project-links button:hover, .article-card button:hover {
+    background-color: var(--secondary-color);
   }
   
   
