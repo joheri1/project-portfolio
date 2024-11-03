@@ -3,7 +3,7 @@
 /* ========== BUTTONS COMPONENT ========== */
 /* This component contains the Watch It Live, Read Article, and View Code buttons used in the CardSection Component*/
 
-import "./button.css";
+import "./Button.css";
 
 export const Button = ({
   icon,
