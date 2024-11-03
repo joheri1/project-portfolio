@@ -1,6 +1,9 @@
-/* button.css */
+/* ========== BUTTONS STYLING ========== */
 
-/* Base styling for all buttons */
+/* This component contains styling for the Watch It Live, Read Article, and View Code buttons used in the CardSection Component*/
+
+/* ========== BASE STYLING FOR ALL BUTTONS ========== */
+
 .button {
     display: flex;
     align-items: center;
@@ -18,7 +21,8 @@
     margin-left: 0.5rem;
   }
   
-  /* Outlined style */
+  /* ========== OUTLINED STYLE ========== */
+
   .button.outlined {
     background-color: var(--natural-color);
     color: var(--primary-color);
@@ -29,7 +33,8 @@
     color: var(--primary-color);
   }
   
-  /* Filled style */
+  /* ========== FILLED STYLE ========== */
+
   .button.filled {
     background-color: var(--primary-color);
     color: var(--natural-color);
@@ -40,7 +45,7 @@
     background-color: var(--secondary-color);
   }
   
-  /* Full-width style */
+  /* ========== FULL-WIDHT BUTTON STYLING ========== */
   .button.full-width {
     width: 100%;
   }

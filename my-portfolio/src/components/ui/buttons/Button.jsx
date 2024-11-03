@@ -1,8 +1,7 @@
 /* eslint-disable react/prop-types */
 
-/* WatchItLive, ReadArticle and ViewCode buttons */
-
-// Button.jsx
+/* ========== BUTTONS COMPONENT ========== */
+/* This component contains the Watch It Live, Read Article, and View Code buttons used in the CardSection Component*/
 
 import "./button.css";
 
@@ -33,7 +32,7 @@ export const Button = ({
           src={icon}
           alt=""
           className="icon"
-          aria-hidden="true" // Hide the icon from assistive technologies
+          aria-hidden="true" 
         />
       )}
       <span className="label">{label}</span>

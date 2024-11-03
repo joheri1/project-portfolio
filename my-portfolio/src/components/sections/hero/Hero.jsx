@@ -1,5 +1,10 @@
 /* ========== HERO SECTION ========== */
 
+/* This component contains the Hero header. It contains headings, body text, an image and icons with links. 
+- The styling for the headings and body text is imported from the Typography component. 
+- The icons and their links are imported from the SocialIcons component. 
+*/
+
 import "./Hero.css";
 import { H1, H3, Body } from "../../ui/typography/Typography";
 import "../../ui/typography/Typography.css";

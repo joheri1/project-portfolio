@@ -24,8 +24,7 @@
   .project-card, .article-card {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-		justify-content: space-between;
+		align-self: stretch;
     background-color: var(--natural-color);
     padding: 1.5rem;
     border-radius: 10px;
@@ -56,19 +55,11 @@
 		align-self: stretch;
 		flex-grow: 1;
   }
-
-/* ========== PROJECT CARD STYLING========== */
-
-.tags {
-    font-size: 0.875rem;
-  }
-
-.project-links {
-	display: flex;
-	gap: 1rem;
-}
-
-/* ========== ARTICLE CARD STYLING========== */
+	.body-text {
+		font-size: 1.125rem;
+		align-self: stretch;
+		text-align: left;
+	}
 
 .date {
     font-size: 1.125rem;
@@ -81,13 +72,15 @@
 .project-buttons {
   display: flex;
   gap: 1rem; /* Space between the buttons */
-  width: 100%; /* Ensures the container fills the card's width */
+  width: 100%; 
 }
 
-.project-buttons .button {
+.project-buttons {
   flex: 1; /* Makes each button take up equal space */
+	margin-top: auto;
+	width: 100%;
 }
-  
-  
-  
-  
+
+.article-card button {
+  margin-top: auto;
+}

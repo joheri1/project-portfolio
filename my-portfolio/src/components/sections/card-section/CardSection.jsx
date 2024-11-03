@@ -1,7 +1,14 @@
 /* eslint-disable react/prop-types */
 
-
 /* ========== CARD SECTION ========== */
+
+/* This component contains cards displayed under Featured Projects and My Journey. The cards contain heading, image, body-text, and button/-s. 
+
+ProjectCard uses data from projects.json.
+ArticleCard uses hardcoded article data within CardSection.jsx.
+
+The buttons are imported from the component Button. 
+*/
 
 import "./CardSection.css";
 import { H3, Body } from "../../ui/typography/Typography";

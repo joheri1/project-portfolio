@@ -2,6 +2,11 @@
 
 /* ========== TEXT SECTION ========== */
 
+/* This component renders a text section used twice in the app. 
+
+- The first text section displays four columns with an orange border between each column.
+- The second text section has a centered heading and body text.*/
+
 import "./TextSection.css";
 import { H2, H3, Body } from "../../ui/typography/Typography";
 

@@ -1,5 +1,11 @@
 /* ========== TYPOGRAPHY STYLING ========== */
 
+/* 
+
+This component styles the headings and texts in the app. The component uses named Global variables from the index.css
+
+*/
+
 h1 {
     font-family: var(--font-family-h1); 
     font-size: var(--font-size-h1);

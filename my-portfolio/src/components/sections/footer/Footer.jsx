@@ -1,5 +1,11 @@
 /* ========== FOOTER SECTION ========== */
 
+/* This component contains the Footer, and contain an image, heading, contact information, and icons with social links. 
+
+The icons and their links are imported from SocialIcons component. 
+
+*/
+
 import "./Footer.css";
 import { H2, Body } from "../../ui/typography/Typography";
 import placeholderFooterImage from "../../../assets/images/placeholder-footer-image.png";

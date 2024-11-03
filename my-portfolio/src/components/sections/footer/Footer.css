@@ -1,5 +1,12 @@
-/* ========== FOOTER SECTION STYLES ========== */
+/* ========== FOOTER STYLING ========== */
 
+/* This component contains styling for the Footer. 
+
+The social icons and their links are styled via the SocialIcons component, except for a margin only used in the Footer. 
+
+*/
+
+/* ========== FOOTER SECTION STYLES ========== */
 .footer-section {
     display: flex;
     padding: 4rem 8rem 8rem 8rem;
