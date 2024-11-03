@@ -2,7 +2,13 @@
 
 /* ========== TYPOGRAPHY COMPONENT ========== */
 
-import "./typography.css";
+/* 
+
+This component renders the Global headings and texts variables from the index.css
+
+*/
+
+import "./Typography.css";
 
 export const H1 = ({ heading }) => <h1 className="heading1">{heading}</h1>;
 export const H2 = ({ heading }) => <h2 className="heading2">{heading}</h2>;
