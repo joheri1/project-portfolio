@@ -116,4 +116,37 @@ p {
   color: var(--color-body); 
 }
 
+/* ========== RESPONSIVENESS ========== */
 
+/* ========== MOBILE ========== */
+@media screen and (max-width: 600px) {
+  
+  .hero-container {
+    display: flex;
+    padding: 4rem 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    align-self: stretch;
+  }
+  .text-box .heading1 {
+    font-size: 8vw;
+  }
+  
+  .text-box .heading3 {
+    font-size: 1.5rem;
+    align-self: stretch;
+  }
+  
+  .hero-container .body-text {
+  font-size: 1.125rem;
+  }
+}
+/* ========== TABLET ========== */
+@media screen and (min-width: 501px) and (max-width: 1024px) { 
+
+}
+/* ========== DESKTOP ========== */
+@media screen and (min-width: 1025px) {
+
+}
