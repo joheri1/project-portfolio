@@ -85,7 +85,7 @@ const ProjectCard = ({ name, content, image, netlifyLink, githubLink }) => (
       }}
     ></div>
     <div>
-      <H3 className="title">{name}</H3>
+      <H3 heading={name} className="title" />
       <Body text={content} className="content" />
       <div className="project-buttons">
         <Button label="Live Demo" variant="filled" link={netlifyLink} />
