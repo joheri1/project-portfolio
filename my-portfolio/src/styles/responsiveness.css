@@ -1,0 +1,20 @@
+/* ========== RESPONSIVENESS ========== */
+
+/* This component styles the responsiveness for different screen sizes 
+
+The Global styling for the fonts and colors can be found in index.css 
+
+*/
+
+/* ========== MOBILE ========== */
+@media screen and (max-width: 600px) {
+  
+}
+/* ========== TABLET ========== */
+@media screen and (min-width: 501px) and (max-width: 1024px) { 
+
+}
+/* ========== DESKTOP ========== */
+@media screen and (min-width: 1025px) {
+
+}

@@ -10,39 +10,22 @@ img {
   --natural-color: #FFFFFF;   /* Global natural color */
 
   /* H1 */
-  --font-size-h1: 6.25rem;
-  --font-weight-h1: 700;
-  --line-height-h1: 6.25rem;
-  --font-style-h1: normal;
   --font-family-h1: 'Urbanist';
   --color-h2: var(--secondary-color); /* Dark */
 
   /* H2 */
-  --font-size-h2: 5rem;
-  --font-weight-h2: 700;
-  --line-height-h2: normal; 
-  --font-style-h2: normal;
   --font-family-h2: 'Urbanist';
   --color-h2: var(--secondary-color); /* Dark */
 
   /* H3 */
-  --font-size-h3: 1.875rem;
-  --font-weight-h3: 500;
-  --line-height-h3: normal;
-  --font-style-h3: normal;
   --font-family-h3: 'Poppins'; 
   --color-h3: var(--secondary-color); /* Dark */
 
   /* Body */
-  --font-size-body: 1.125rem;
-  --font-weight-body: 400;
-  --line-height-body: 2rem;
   --font-family-body: 'Poppins'; 
   --color-body: var(--secondary-color); /* Dark */
 
   /* Text (P tag) */
-  --font-size-text: 1.125rem;
-  --font-weight-text: 500;
   --line-height-text: 2rem;
   --text-align-text: center;
 }
@@ -58,51 +41,31 @@ body, html {
   background-color: var(--natural-color);
 }
 
-/* ========== APPLY TYPOGRAPHY STYLES ========== */
+/* ========== APPLY TYPOGRAPHY STYLES  ========== */
 
 /* Apply the H1 styles */
 h1 {
   font-family: var(--font-family-h1); /* Urbanist */
-  font-size: var(--font-size-h1);
-  font-weight: var(--font-weight-h1);
-  line-height: var(--line-height-h1);
-  font-style: var(--font-style-h1);
-  margin: 0;
-  padding: 0;
+  color: var(--color-h2); /* Dark */
 }
 
 /* Apply the H2 styles */
 h2 {
-  font-family: var(--font-family-h2); /* Urbanist */
-  font-size: var(--font-size-h2);
-  font-weight: var(--font-weight-h2);
-  line-height: var(--line-height-h2);
-  font-style: var(--font-style-h2);
+  font-family: var(--font-family-h2); /* Urbanist */;
   color: var(--color-h2);
-  margin: 0;
-  padding: 0;
 }
 
 /* Apply the H3 styles */
 h3 {
   font-family: var(--font-family-h3); /* Poppins */
-  font-size: var(--font-size-h3);
-  font-weight: var(--font-weight-h3);
-  line-height: var(--line-height-h3);
   font-style: var(--font-style-h3);
   color: var(--color-h3);
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
 }
 
 /* Apply the Body-text styles */
 .body-text {
-  margin: 0;
   font-family: var(--font-family-body); /* Poppins */
   font-size: var(--font-size-body);
-  font-weight: var(--font-weight-body);
-  line-height: var(--line-height-body);
   color: var(--color-body); 
 }
 
@@ -110,45 +73,77 @@ h3 {
 p {
   font-family: var(--font-family-body); /* Poppins */
   font-size: var(--font-size-text);
-  font-weight: var(--font-weight-text);
-  line-height: var(--line-height-text);
   text-align: var(--text-align-text);
   color: var(--color-body); 
 }
 
-/* ========== RESPONSIVENESS ========== */
 
 /* ========== MOBILE ========== */
+
 @media screen and (max-width: 600px) {
+  :root {
+  /* H1 (Mobile) */
+  --font-size-h1: 3.75rem;
+  --line-height-h1: 6.25rem;
   
-  .hero-container {
-    display: flex;
-    padding: 4rem 1.5rem;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-    align-self: stretch;
-    width: 50%;
-  }
-  .text-box .heading1 {
-    font-size: 8vw;
-    max-width: 100%;
-  }
+  /* H2 (Mobile) */
+  --font-size-h2: font-size: 3.75rem;
   
-  .text-box .heading3 {
-    font-size: 1.5rem;
-    align-self: stretch;
-  }
+  /* H3 (Mobile) */
+  --font-size-h3: 1.5rem;
   
-  .hero-container .body-text {
-  font-size: 1.125rem;
+  /* Body text (Mobile) */
+  --font-size-body: 1.125rem;
+  --line-height-body: 2rem;
+  
+  /* Text / Paragraph (Mobile) */
+  --font-size-text: 1.125rem;
+  --line-height-text: 2rem;
   }
 }
+  
+
 /* ========== TABLET ========== */
 @media screen and (min-width: 501px) and (max-width: 1024px) { 
+  :root {
 
+    /* H1 */
+    --font-size-h1: 5rem;
+    --line-height-h1: 6.25rem;
+
+    /* H2 */
+    --font-size-h2: 3.75rem;
+
+    /* H3 */
+    --font-size-h3: 1.5rem;
+
+    /* Body */
+    --font-size-body: 1.125rem;
+    --line-height-body: 2rem;
+
+    /* Text / Paragraph */
+    --font-size-text: 1.125rem;
+    --line-height-text: 2rem;
+  }
 }
+
+
 /* ========== DESKTOP ========== */
 @media screen and (min-width: 1025px) {
+  :root {
+    /* H1 (Desktop) */
+    --font-size-h1: 6.25rem;
 
+    /* H2 (Desktop) */
+    --font-size-h2: 5rem;
+
+    /* H3 (Desktop) */
+    --font-size-h3: 1.875rem;
+
+    /* Body text (Desktop) */
+    --font-size-body: 1.125rem;
+
+    /* Text / Paragraph (Desktop) */
+    --font-size-text: 1.125rem;
+  }
 }
