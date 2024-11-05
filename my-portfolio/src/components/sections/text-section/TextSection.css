@@ -107,11 +107,39 @@
 /* ========== TABLET ========== */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   .text-section-skills {
-    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .skills-columns {
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
-    align-self: stretch;
+    gap: 2rem;
+  }
+
+  .skills-column {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+    position: relative;
+    margin-bottom: 1rem;
+    padding: 0;
+    margin: 0;
+   }
+
+  /* Horizontal orange border after each columns except the last */
+  .skills-column:not(:last-child)::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 1px;
+    background-color: var(--primary-color);
+    margin: 1rem auto 0;
+  }
+
+  .skills-column .body-text {
+    margin: 0.1rem;
   }
 }
 
