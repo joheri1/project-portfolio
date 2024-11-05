@@ -66,14 +66,38 @@
 
   @media screen and (max-width: 600px) {
     .hero-container {
-      display: flex;
-      padding: 4rem 1.5rem;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
+      padding: 4rem 1.5rem;
       gap: 1.5rem;
-      align-self: stretch;
+      max-width: 100%;
     }
     .text-box {
-      flex-direction: row;
+      max-width: 100%;
+      text-align: center;
+      gap: 1rem;
     }
+    .text-box h1 {
+      margin-bottom: 1rem;
+      font-weight: 700;
+      line-height: 4rem;
+    }
+    .text-box h3 {
+      margin-bottom: 0.5rem;
+      text-align: left;
+      line-height: normal;
+      font-weight: 300;
+    }
+    .text-box .body-text {
+      width: 100%;
+      text-align: center;
+      margin-top: 1rem;
+      line-height: 2rem;
+      padding: 0 0rem;
+      font-weight: 400;
+      text-align: left;
+    }
+    .text-box .social-icons {
+      margin-top: 1rem;
   }
+}
