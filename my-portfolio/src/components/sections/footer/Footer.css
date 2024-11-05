@@ -73,6 +73,8 @@ The social icons and their links are styled via the SocialIcons component, excep
 
   /* ========== RESPONSIVENESS ========== */
 
+  /* NOTE: Global styling for media queries is defined in index.css */ 
+
   /* ========== MOBILE ========== */
 
 @media screen and (max-width: 600px) {

@@ -1,5 +1,11 @@
 /* ========== SOCIAL ICONS STYLING ========== */
 
+/* 
+
+This component styles the icons for the social media, such as GitHub and LinkedIn.
+
+*/
+
 .social-icons {
     display: flex;
     gap: 1rem;

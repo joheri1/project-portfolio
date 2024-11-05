@@ -1,6 +1,8 @@
 /* ========== CARD SECTION STYLING========== */
 
-/* This component contains stylings for the cards displayed under Featured Projects and My Journey. The cards contain heading, image, body-text, and button/-s. The buttons are imported from Button.jsx. 
+/* This component contains stylings for the cards displayed under Featured Projects and My Journey. The cards contain heading, image, body-text, and button/-s. 
+
+The buttons are imported from Button.jsx. Layout for specific buttons can be found further down in this file. 
 
 */
 
