@@ -11,15 +11,18 @@ img {
 
   /* H1 */
   --font-family-h1: 'Urbanist';
-  --color-h2: var(--secondary-color); /* Dark */
+  --color-h1: var(--secondary-color); /* Dark */
+  --font-weight-h1: 700;
 
   /* H2 */
   --font-family-h2: 'Urbanist';
   --color-h2: var(--secondary-color); /* Dark */
+  --font-weight-h2: 700;
 
   /* H3 */
   --font-family-h3: 'Poppins'; 
   --color-h3: var(--secondary-color); /* Dark */
+  --font-weight-h3: 500;
 
   /* Body */
   --font-family-body: 'Poppins'; 
@@ -46,13 +49,15 @@ body, html {
 /* Apply the H1 styles */
 h1 {
   font-family: var(--font-family-h1); /* Urbanist */
-  color: var(--color-h2); /* Dark */
+  color: var(--color-h1); /* Dark */
+  font-weight: var(--font-weight-h1);
 }
 
 /* Apply the H2 styles */
 h2 {
   font-family: var(--font-family-h2); /* Urbanist */;
   color: var(--color-h2);
+  font-weight: var(--font-weight-h2);
 }
 
 /* Apply the H3 styles */
@@ -60,6 +65,7 @@ h3 {
   font-family: var(--font-family-h3); /* Poppins */
   font-style: var(--font-style-h3);
   color: var(--color-h3);
+  font-weight: var(--font-weight-h3);
 }
 
 /* Apply the Body-text styles */
