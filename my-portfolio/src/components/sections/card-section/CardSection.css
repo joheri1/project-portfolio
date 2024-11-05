@@ -17,6 +17,7 @@ The buttons are imported from Button.jsx. Layout for specific buttons can be fou
   
   .card-section h2 {
     margin-bottom: 2rem;
+    text-align: center;
   }
   
   .cards-container {
@@ -51,9 +52,6 @@ The buttons are imported from Button.jsx. Layout for specific buttons can be fou
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-  }
-  .project-card, .article-card .title {
-    text-align: left;
   }
   .project-card, .article-card .content {
     font-size: 0.875rem;

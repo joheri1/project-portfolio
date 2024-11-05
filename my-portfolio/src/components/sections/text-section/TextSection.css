@@ -87,7 +87,7 @@
   .skills-column:not(:last-child)::after {
     content: "";
     display: block;
-    width: 50%;
+    width: 12.5rem;
     height: 1px;
     background-color: var(--primary-color);
     margin: 1rem auto 0;
@@ -136,7 +136,7 @@
   .skills-column:not(:last-child)::after {
     content: "";
     display: block;
-    width: 50%;
+    width: 12.5rem;
     height: 1px;
     background-color: var(--primary-color);
     margin: 1rem auto 0;

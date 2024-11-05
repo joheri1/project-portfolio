@@ -40,6 +40,9 @@
   .text-box h3, 
   .text-box p {
     margin: 0;
+  }
+  .text-box .social-icons {
+    margin-top: 4rem;
 }
   
 /* ========== IMAGE BOX ========== */
@@ -62,9 +65,7 @@
 }
  /* ========== RESPONSIVENESS ========== */
 
- /* ========== NOTE ========== */
-
-/* Global styling for media queries is defined in index.css */ 
+/* NOTE: Global styling for media queries is defined in index.css */ 
 
   /* ========== MOBILE ========== */
 
@@ -103,6 +104,7 @@
     }
     .text-box .social-icons {
       margin-top: 1rem;
+      gap: 2rem;
   }
 }
 
