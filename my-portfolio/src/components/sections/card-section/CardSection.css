@@ -26,12 +26,12 @@ The buttons are imported from Button.jsx. Layout for specific buttons can be fou
     gap: 2rem;
     justify-content: center;
     width: 100%;
+    max-width: 1200px; /* Prevent cards from stretching too much */
   }
   
   .project-card, .article-card {
     display: flex;
     flex-direction: column;
-		align-self: stretch;
     background-color: var(--natural-color);
     padding: 1.5rem;
     border-radius: 10px;
