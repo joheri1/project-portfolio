@@ -10,10 +10,15 @@ The social icons and their links are styled via the SocialIcons component, excep
 .footer-section {
     display: flex;
     padding: 4rem 8rem 8rem 8rem;
-    justify-content: space-evenly;
+    height: auto;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0 auto;  
+    align-items: center;
+    align-self: stretch;
     background-color: var(--natural-color);
     text-align: left;
-    gap: 4rem;
+    gap: 10rem;
   }
 
 /* ========== FOOTER IMAGE STYLING ========== */
@@ -21,7 +26,7 @@ The social icons and their links are styled via the SocialIcons component, excep
 .footer-image-box {
   display: flex;
   justify-content: center;
-  /*align-items: center; */ 
+  align-items: center; 
   width: 19.5rem;
   height: 19.5rem;
   border-radius: 50%;
