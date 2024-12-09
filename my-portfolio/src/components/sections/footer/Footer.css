@@ -18,7 +18,8 @@ The social icons and their links are styled via the SocialIcons component, excep
     align-self: stretch;
     background-color: var(--natural-color);
     text-align: left;
-    gap: 10rem;
+    gap: 20rem;
+    padding: 20px;
   }
 
 /* ========== FOOTER IMAGE STYLING ========== */
@@ -101,9 +102,27 @@ The social icons and their links are styled via the SocialIcons component, excep
   }
 }
 /* ========== TABLET ========== */
-@media screen and (min-width: 501px) and (max-width: 1024px) { 
+@media screen and (min-width: 601px) and (max-width: 1024px) { 
   .footer-section {
     padding: 2rem 4rem 4rem 4rem;
+    gap: 4rem;
+  }
+  .footer-image-box {
+    width: 15rem;
+    height: 15rem;
+  }
+  .footer-contact-info {
+    max-width: 16rem;
+  }
+  .footer-contact-info .heading2 {
+    margin: 0 0 0.5rem;
+    font-size: 2rem;
+  }
+  .footer-contact-info .body-text {
+    margin: 0.5rem 0;
+  }
+  .footer-section .social-icons {
+    margin-top: 2rem;
   }
 }
 /* ========== DESKTOP (DEFAULT STYLES) ========== */
