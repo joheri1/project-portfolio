@@ -24,11 +24,12 @@ The buttons are imported from Button.jsx. Layout for specific buttons can be fou
     display: flex;
     overflow-x: auto;
 		grid-template-columns: repeat(4, 1fr);
-    padding-left: 5px;
+    padding-left: 20px;
     padding-right: 5px;
     scroll-snap-type: x mandatory; 
+    scroll-padding-left: 20px;
     gap: 2rem;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
     max-width: 1200px; /* Prevent cards from stretching too much */
   }
@@ -36,7 +37,9 @@ The buttons are imported from Button.jsx. Layout for specific buttons can be fou
   /* Scroll bar */
 
   .cards-container::-webkit-scrollbar {
-    height: 8px; 
+    height: 20px; 
+    width: 100%;
+    margin-top: 20px;
   }
   
   .cards-container::-webkit-scrollbar-thumb {
@@ -62,6 +65,15 @@ The buttons are imported from Button.jsx. Layout for specific buttons can be fou
     width: 250px;
     gap: 1rem;
     transition: transform 0.3s ease;
+    scroll-snap-align: center;
+  }
+
+  .project-card:first-child, .article-card:first-child {
+    margin-left: 20px;
+  }
+  
+  .project-card:last-child, .article-card:last-child {
+    margin-right: 20px;
   }
   
   .project-card:hover, .article-card:hover {
@@ -86,6 +98,11 @@ The buttons are imported from Button.jsx. Layout for specific buttons can be fou
 		font-size: 1.125rem;
 		align-self: stretch;
 		text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box; 
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 	}
 
   .project-card .body-text {
@@ -106,14 +123,44 @@ The buttons are imported from Button.jsx. Layout for specific buttons can be fou
   display: flex;
   gap: 1rem; /* Space between the buttons */
   width: 100%; 
-}
-
-.project-buttons {
   flex: 1; /* Makes each button take up equal space */
 	margin-top: auto;
-	width: 100%;
 }
 
 .article-card button {
   margin-top: auto;
+}
+
+/* ========== RESPONSIVENESS TABLET ========== */
+@media (max-width: 768px) {
+  .cards-container {
+    gap: 1rem; 
+    padding: 0 5px; 
+  }
+
+  .project-card, .article-card {
+    width: 220px; 
+  }
+}
+
+/* ========== RESPONSIVENESS MOBILE ========== */
+@media (max-width: 500px) {
+  .cards-container {
+    padding: 0 20px; 
+    scroll-snap-type: x mandatory; 
+    gap: 1rem; 
+    scroll-padding-left: 20px;
+    justify-content: flex-start;
+  }
+
+  .project-card, .article-card {
+    width: 200px;
+    scroll-snap-align: center; 
+  }
+  .project-buttons {
+    flex-direction: column; 
+    gap: 0.5rem; 
+    align-items: stretch; 
+    width: 100%;
+  }
 }
