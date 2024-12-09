@@ -21,17 +21,40 @@ The buttons are imported from Button.jsx. Layout for specific buttons can be fou
   }
   
   .cards-container {
-    display: grid;
+    display: flex;
+    overflow-x: auto;
 		grid-template-columns: repeat(4, 1fr);
+    padding-left: 5px;
+    padding-right: 5px;
+    scroll-snap-type: x mandatory; 
     gap: 2rem;
     justify-content: center;
     width: 100%;
     max-width: 1200px; /* Prevent cards from stretching too much */
   }
+
+  /* Scroll bar */
+
+  .cards-container::-webkit-scrollbar {
+    height: 8px; 
+  }
+  
+  .cards-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px; 
+  }
+  
+  .cards-container::-webkit-scrollbar-track {
+    background-color: transparent; 
+  }
+
+  /* cards styling */
   
   .project-card, .article-card {
     display: flex;
+    flex: 0 0 auto;
     flex-direction: column;
+    justify-content: center;
     background-color: var(--natural-color);
     padding: 1.5rem;
     border-radius: 10px;
