@@ -53,7 +53,7 @@ During deployment to Netlify, I encountered several build errors caused by the f
 - CodePen was used to test smaller design components, like the borders between the columns in the Skills text section I found this [Code Pen](https://codepen.io/brendanfalkowski/pen/Mwrywj) and modified it in [My Code Pen](https://codepen.io/joheri1/pen/qBeKLVL).  
 
 ### View it live
-[Visit My Portfolio](https://johanna-eriksson-portfolio.netlify.app/)
+[Visit My Portfolio](https://johanna-erikssons-portfolio.netlify.app/)
 
 
 
